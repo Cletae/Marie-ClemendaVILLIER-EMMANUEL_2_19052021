@@ -1,9 +1,9 @@
 body{
   font-family: "Raleway", sans-serif;
-
+  margin-left: 30px;
 }
 
-/*Header*/
+/*Header & Nav*/
 
 nav{
   display: flex;
@@ -13,7 +13,7 @@ nav{
 
 nav img{
   height: 70px;
-  margin-left: 30px;
+  margin-top: 20px;
 }
 
 nav ul{
@@ -23,4 +23,64 @@ nav ul{
 
 nav li{
   margin: 0px 30px 0px 30px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #0065FC;
+  height: 16px;
+}
+
+#bold{
+  font-weight: bold;
+  color: #0065FC;
+}
+
+/*Searchbar*/
+
+#searchbar{
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  border: 1px;
+}
+
+#icon{
+  padding: 9px;
+  background-color: #F2F2F2;
+  border-top-left-radius: 10px 10px;
+  border-bottom-left-radius: 10px 10px;
+}
+
+
+#search_button{
+  margin: 0px;
+  padding: 5px;
+  border: 0px;
+  border-top-right-radius: 10px 10px;
+  border-bottom-right-radius: 10px 10px;
+  background-color: #0065FC;
+  color: white;
+}
+/*Filtres*/
+
+.filtre{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filtre ul{
+  display:flex;
+  padding-left: 0px;
+  border-width: thin;
+  border: 50px;
+  border-radius: 50px 50px;
+}
+
+.filtre ul li{
+  list-style: none;
+  font-weight: bold;
+  margin: 0px 20px 0px 0px;
+
 }
