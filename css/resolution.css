@@ -1,0 +1,32 @@
+/* Petite résolution */
+
+@media screen and (max-width: 1024px) {
+  nav {
+    width: auto;
+  }
+
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .bold{
+    order: -1;
+  }
+
+  nav a{
+    flex-flow: wrap;
+  }
+
+  nav a:hover {
+    border-top: none;
+    border-bottom: 2px solid #0065FC;
+    color: #0065FC;
+  }
+}
+
+/* Tablette */
+@media all and (min-width: 1024px) and (max-width: 1280px){
+
+}
