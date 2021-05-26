@@ -14,14 +14,15 @@ nav img {
   height: 50px;
 }
 
-nav ul{
+.navbar{
   display: flex;
   flex-direction: row;
   list-style: none;
 }
 
-nav li{
-  margin: 0px 30px 0px 30px;
+nav div{
+  margin-right: 50px;
+  margin-top: 5px;
 }
 
 nav a{
@@ -37,8 +38,12 @@ nav a:hover{
 }
 
 .bold {
+  font-weight: 100;
+  background-color: transparent;
+  border: none;
   font-weight: bold;
   color: #0065FC;
+  font-size: 15px;
 }
 
 /*Searchbar*/
