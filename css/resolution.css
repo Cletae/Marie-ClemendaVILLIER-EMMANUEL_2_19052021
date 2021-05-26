@@ -1,8 +1,10 @@
 /* Petite résolution */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 425px) {
   nav {
     width: auto;
+    display: flex;
+    flex-direction: row;
   }
 
   .navbar {
@@ -11,12 +13,21 @@
     flex-direction: row;
   }
 
+  .element{
+    display: flex;
+    flex-direction: row;
+    order: 2;
+    width: 50%;
+  }
+
   .bold{
     order: -1;
+    width: 50%;
   }
 
   nav a{
     flex-flow: wrap;
+    width: 50%;
   }
 
   nav a:hover {
