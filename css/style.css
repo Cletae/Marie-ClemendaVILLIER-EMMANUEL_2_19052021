@@ -14,13 +14,13 @@ nav img {
   height: 50px;
 }
 
-.navbar{
+nav ul{
   display: flex;
   flex-direction: row;
   list-style: none;
 }
 
-nav div{
+nav li{
   margin-right: 50px;
   margin-top: 5px;
 }
@@ -64,6 +64,7 @@ nav a:hover{
 #city {
   color: black;
   font-weight: bold;
+
 }
 
 #search_button {
@@ -80,6 +81,7 @@ nav a:hover{
 .filtre {
   display: flex;
   justify-content: flex-start;
+  flex-direction: row;
   padding: 20px;
   padding-left: 0px;
 }
@@ -131,17 +133,16 @@ nav a:hover{
 #icon_info .fas {
   color: #0065FC;
   border: 2px solid #F2F2F2;
-  padding: 7px;
-  margin: 0px;
-  border-radius: 20px 20px;
+  padding: 5px;
+  border-radius: 50% 50%;
 }
 
 .info p {
   margin-left: 0.3em
 }
 
-/*Section 2*/
-#block {
+/* Main */
+.block {
   background-color: #F2F2F2;
 }
 

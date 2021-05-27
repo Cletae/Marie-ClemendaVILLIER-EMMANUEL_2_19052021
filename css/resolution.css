@@ -1,6 +1,8 @@
 /* Petite résolution */
 
 @media screen and (max-width: 425px) {
+
+/* Header & Nav */
   nav {
     width: auto;
     display: flex;
@@ -11,6 +13,7 @@
    .navbar{
      margin-left: 0px;
      border-bottom: 2px solid #F2F2F2;
+     padding-left: 0px;
    }
 
    .element{
@@ -18,15 +21,15 @@
     flex-direction: row;
   }
 
-  .bold{
+  nav button{
     position: absolute;
     right: 10%;
     top: 25px;
   }
 
-  nav a{
+  nav li a{
     flex-flow: wrap;
-    width: 50%;
+    width: 100%;
   }
 
   nav a:hover {
@@ -34,9 +37,42 @@
     border-bottom: 2px solid #0065FC;
     color: #0065FC;
   }
+
+/* Section1 */
+
+/* Filtre */
+  .filtre, .list{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .filtre p{
+    padding-bottom: 10px;
+  }
+
+   .list_item{
+    padding-bottom: 20px;
+  }
+
+  .info{
+    width: 100%;
+  }
+
+  .info p{
+    margin-left: 1em;
+  }
+
+
+
 }
 
-/* Tablette */
-@media all and (min-width: 1024px) and (max-width: 1280px){
 
+
+/* Tablette */
+@media all and (min-width: 768px) and (max-width: 1023px){
+
+  /* .filtre, .list{
+    display: flex;
+    flex-direction: row;
+  } */
 }
