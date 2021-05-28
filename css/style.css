@@ -14,25 +14,25 @@ nav img {
   height: 50px;
 }
 
-nav ul{
+nav ul {
   display: flex;
   flex-direction: row;
   list-style: none;
 }
 
-nav li{
+nav li {
   margin-right: 50px;
   margin-top: 5px;
 }
 
-nav a{
+nav a {
   text-decoration: none;
   color: black;
   height: 16px;
   padding: 10px 0px;
 }
 
-nav a:hover{
+nav a:hover {
   color: #0065FC;
   border-top: 2px solid #0065FC;
 }
@@ -46,6 +46,7 @@ nav a:hover{
   font-size: 15px;
 }
 
+/* Section1 */
 /*Searchbar*/
 #searchbar {
   display: flex;
@@ -64,7 +65,6 @@ nav a:hover{
 #city {
   color: black;
   font-weight: bold;
-
 }
 
 #search_button {
@@ -113,7 +113,10 @@ nav a:hover{
 }
 
 .list_item a {
-  padding-right: 7px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 0.5em;
   text-decoration: none;
   color: black;
   border: 2px solid #F2F2F2;
@@ -142,27 +145,28 @@ nav a:hover{
 }
 
 /* Main */
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .block {
   background-color: #F2F2F2;
+  border-radius: 30px 30px;
+  padding: 0.5em;
+  width: 65%;
 }
 
 h2 {
-  margin-left: 45px;
-}
-
-article img {
-  width: 59vh;
-  height: 25vh;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  margin: 5px;
+  margin-left: 15px;
 }
 
 /* Grid*/
 .container {
   display: grid;
-  justify-content: space-evenly;
-  grid-row-gap: 35px;
+  justify-content: flex-start;
+  grid-gap: 20px;
   grid-template-rows: repeat (2, 50px);
   grid-template-columns: repeat (3, 50px);
 }
@@ -198,11 +202,21 @@ article img {
 }
 
 .item1, .item2, .item3, .item4, .item5, .item6 {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   background-color: white;
   border-radius: 20px 20px;
-  width: 290px;
-  height: 240px
+  width: 13em;
+  height: 15em;
+}
+
+article img {
+  width: 37vh;
+  height: 20vh;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin: 5px;
 }
 
 h3 {
@@ -219,11 +233,33 @@ article p {
   margin: 0px 10px 0px 10px;
 }
 
-.star i {
+.star .blue {
   display: flex;
   color: #0065FC;
 }
 
-.grey_star {
+.star .grey_star {
   color: #F2F2F2;
+}
+
+/* Aside */
+.populaires {
+  background-color: #F2F2F2;
+  width: 15%;
+  border-radius: 30px 30px;
+}
+
+.sidebar li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.sidebar li img {
+  width: 45vh;
+  height: 20vh;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
