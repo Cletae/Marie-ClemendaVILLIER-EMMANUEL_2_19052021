@@ -1,4 +1,4 @@
-/* Petite résolution */
+/* Mobile */
 
 @media screen and (max-width: 425px) {
 
@@ -43,6 +43,7 @@
 /* Filtre */
   .filtre, .list{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
   }
 
@@ -51,6 +52,7 @@
   }
 
    .list_item{
+     flex-wrap: wrap;
     padding-bottom: 20px;
   }
 
