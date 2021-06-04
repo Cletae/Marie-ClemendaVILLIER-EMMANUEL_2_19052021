@@ -178,7 +178,7 @@ main {
   display: flex;
 }
 
-.block {
+.section1 {
   background-color: #F2F2F2;
   border-radius: 20px;
   padding: 0.5em;
@@ -195,14 +195,12 @@ h2 {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  row-gap: 25px;
-  column-gap: 20px;
 }
 
 .item1, .item2, .item3, .item4, .item5, .item6 {
   display: flex;
   flex-wrap: wrap;
-  margin: 2px;
+  margin: 2px 13px 25px 2px;
   align-items: flex-start;
   background-color: white;
   border-radius: 15px;
@@ -221,7 +219,7 @@ article a:hover {
   transition: ease 0.3s;
 }
 
-article img {
+.block img {
   width: 39vh;
   height: 20vh;
   border-top-left-radius: 15px;
@@ -330,4 +328,42 @@ aside{
 .right p{
   margin: 2px 0px 10px 10px;
   font-size: 15px;
+}
+
+/* Section2 */
+.section2{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section2 img{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+}
+
+.large, .medium, .small, .moyen{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #DCDCDC;
+}
+
+.large img{
+  width: 45vh;
+  height: 75vh;
+}
+
+.medium img{
+  width: 45vh;
+  height: 45vh;
+}
+
+.small img{
+  width: 45vh;
+  height: 25vh;
+}
+
+.moyen img{
+  width: 45vh;
+  height: 35vh;
 }

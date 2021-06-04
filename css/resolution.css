@@ -1,6 +1,6 @@
 /* Mobile */
 
-@media screen and (max-width: 578px) {
+@media screen and (min-width: 320px) and (max-width: 738px) {
 
   body{
     margin-left: 0px;
@@ -70,7 +70,7 @@
   }
 
   #search_button i{
-    display: inline-block;
+    display: inline-grid;
   }
 
   /* Filtre */
@@ -129,7 +129,7 @@
     height: 18vh;
   }
 
-  .block{
+  .section1{
     height: 35.5em;
     width: 100%;
     margin-left: 0px;
@@ -144,7 +144,7 @@
     align-items: center;
   }
 
-  article img{
+  .block img{
     width: 46vh;
     height: 12vh;
   }
@@ -154,12 +154,23 @@
 /* Tablette */
 @media all and (min-width: 768px) and (max-width: 1023px){
 
+  h2{
+    font-size: 1.3em;
+  }
+
+  p{
+    font-size: 18px;
+  }
+
   /* Filtres */
   .filtre, .list{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-start;
+  }
+
+  .filtre p{
+    margin-right: 20px;
   }
 
   .list{
@@ -167,8 +178,76 @@
   }
 
   .list_item{
-    justify-content: space-between;
+    padding-bottom: 5px;
+    margin-right: 20px;
   }
+
+  main{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+
+  aside{
+    height: 25.5em;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .under_sidebar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .populaires h2{
+    margin-right: 50px;
+  }
+
+   .under_sidebar-item{
+    margin-left: 1.5em;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+    width: 320px;
+    height: 132px;
+  }
+
+  .under_sidebar-item img{
+    width: 15vh;
+    height: 22vh;
+  }
+
+  .section1{
+    height: 35.5em;
+    width: 100%;
+    margin-left: 0px;
+    background-color: inherit;
+
+  }
+
+  .item1, .item2, .item3, .item4, .item5, .item6{
+    width: 335px;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  .block img{
+    width: 57vh;
+    height: 20vh;
+    margin-top: 0px;
+  }
+
+  .link{
+    font-size: 19px;
+  }
+
+  .container{
+    margin-bottom: 15px;
+  }
+
 
 
 }
