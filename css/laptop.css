@@ -1,0 +1,86 @@
+/*------ Laptop (PC) ------*/
+@media all and (min-width: 1066px) and (max-width: 1440px){
+  /* Hébergements */
+  /* Populaire */
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .section1 {
+    width: 60%;
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+
+  .container{
+    display: flex;
+    column-gap: 10px;
+  }
+
+  article {
+    max-width: 250px;
+    height: 210px;
+    display: flex;
+    align-items: center;
+  }
+
+  article a{
+    max-width: 300px
+  }
+
+  .block img {
+    width: 35%;
+    height: 35%;
+    margin-top: 0px;
+  }
+
+  .link {
+    font-size: 19px;
+  }
+
+  .container {
+    margin-bottom: 15px;
+  }
+
+  aside {
+    width: 35%;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .sidebar a{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 85%;
+    height: 132px;
+  }
+
+  .sidebar img {
+    display: flex;
+    min-width: 35%;
+    width: 35%;
+    height: 120px;
+  }
+
+  .right{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .populaires h2 {
+    margin-right: 50px;
+  }
+
+
+
+}

@@ -176,7 +176,7 @@ nav a:hover {
   margin-left: 0.3em
 }
 
-/* Main */
+/* Hébergements */
 main {
   display: flex;
 }
@@ -229,6 +229,7 @@ article img {
   min-width: 95%;
   width: 95%;
   height: 100px;
+  object-fit: cover;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -266,7 +267,7 @@ article p {
   color: #0065FC;
 }
 
-/* Aside */
+/* Populaires */
 aside{
   margin-left: 2em;
   background-color: #F2F2F2;
@@ -274,6 +275,7 @@ aside{
   min-width: 300px;
   display: flex;
   flex-direction: column;
+  width: 265px;
 }
 
 .populaires {
@@ -296,12 +298,11 @@ aside{
 .sidebar {
   display: flex;
   flex-direction: column;
-  max-width: 250px;
 }
 
 .sidebar a{
-  width: 265px;
-  height: 125px;
+  height: 130px;
+  width: 85%;
   text-decoration: none;
   color: black;
   display: flex;
@@ -311,7 +312,9 @@ aside{
   box-shadow: 5px 5px 10px #DCDCDC;
   margin-left: 15px;
   margin-bottom: 25px;
+  padding-right: 6px;
   padding-bottom: 7px;
+
 }
 
 .sidebar a:hover{
@@ -320,17 +323,16 @@ aside{
 }
 
 .sidebar img {
-  display: inline-block;
-  padding: 7px 0px 0px 0px;
+  padding: 7px 0px 0px 5px;
   min-width: 40%;
   width: 40%;
-  height: 115px;
+  height: 120px;
+  object-fit: cover;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 
  .right{
-  display: inline-block;
   margin-left: 5px;
 }
 
