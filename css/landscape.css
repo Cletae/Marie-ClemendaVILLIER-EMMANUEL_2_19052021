@@ -1,5 +1,5 @@
 /*------------ Tablette Format Paysage -----------*/
-@media all and (min-width: 831px) and (max-width: 1065px){
+@media all and (min-width: 935px) and (max-width: 1065px) and (orientation: landscape) {
   h2 {
     font-size: 1.3em;
   }
@@ -30,27 +30,27 @@
   }
 
   /* Populaire */
-  main {
+  .main {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-around;
   }
 
   aside {
-    height: 230px;
+    height: 530px;
     width: 100%;
     margin-left: 0px;
     display: flex;
     flex-direction: column;
   }
 
-  .sidebar{
+  .sidebar {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
   }
 
-  .sidebar a{
+  .sidebar a {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -65,7 +65,7 @@
     height: 120px;
   }
 
-  .right{
+  .right {
     display: flex;
     flex-direction: column;
   }
@@ -82,23 +82,23 @@
     background-color: inherit;
   }
 
-  .container{
+  .container {
     display: flex;
     column-gap: 10px;
   }
 
-  article {
+  .section1 article {
     max-width: 300px;
     height: 210px;
     display: flex;
     align-items: center;
   }
 
-  article a{
+  .section1 article a {
     max-width: 300px
   }
 
-  .block img {
+  .section1 img {
     width: 50%;
     height: 35%;
     margin-top: 0px;
@@ -111,4 +111,5 @@
   .container {
     margin-bottom: 15px;
   }
+
 }

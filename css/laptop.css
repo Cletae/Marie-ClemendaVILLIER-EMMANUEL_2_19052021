@@ -1,8 +1,9 @@
 /*------ Laptop (PC) ------*/
-@media all and (min-width: 1066px) and (max-width: 1440px){
+@media all and (min-width: 1066px) and (max-width: 1440px) {
+
   /* Hébergements */
   /* Populaire */
-  main {
+  .main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -14,23 +15,23 @@
     margin-right: 20px;
   }
 
-  .container{
+  .container {
     display: flex;
     column-gap: 10px;
   }
 
-  article {
+  .section1 article {
     max-width: 250px;
     height: 210px;
     display: flex;
     align-items: center;
   }
 
-  article a{
+  .section1 article a {
     max-width: 300px
   }
 
-  .block img {
+  .section1 img {
     width: 35%;
     height: 35%;
     margin-top: 0px;
@@ -51,13 +52,13 @@
     flex-direction: column;
   }
 
-  .sidebar{
+  .sidebar {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
   }
 
-  .sidebar a{
+  .sidebar a {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -72,7 +73,7 @@
     height: 120px;
   }
 
-  .right{
+  .right {
     display: flex;
     flex-direction: column;
   }
@@ -81,6 +82,7 @@
     margin-right: 50px;
   }
 
-
-
+  .block {
+    width: 88%;
+  }
 }
