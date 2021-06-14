@@ -84,8 +84,9 @@
   }
 
   /* Hébergements */
-  .section1 {
-    height: 56.5em;
+  #section1 {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     margin-left: 0px;
     background-color: inherit;
@@ -94,22 +95,27 @@
   .container{
     display: flex;
     column-gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
   }
 
-  .section1 article {
-    max-width: 400px;
+  #section1 article {
+    max-width: 90%;
+    min-width: 90%;
     height: 250px;
     display: flex;
     align-items: center;
   }
 
-  .section1 article a{
-    max-width: 400px;
+  #section1 article a{
+    max-width: 100%;
     height: 245px;
+    margin-left: 0px;
   }
 
-  .section1 img {
-    width: 35%;
+  #section1 img {
+    width: 100%;
     height: 65%;
     margin-top: 0px;
   }
@@ -123,8 +129,7 @@
   }
 
   /* Activités */
-  .section2{
-    height: 65em;
+  #section2{
     display: flex;
     flex-direction: column;
   }
@@ -160,6 +165,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    height:
   }
 
 

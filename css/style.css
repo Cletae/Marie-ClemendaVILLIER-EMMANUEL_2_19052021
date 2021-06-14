@@ -181,7 +181,7 @@ nav a:hover {
   display: flex;
 }
 
-.section1 {
+#section1 {
   background-color: #F2F2F2;
   border-radius: 20px;
   width: 65%;
@@ -201,7 +201,7 @@ h2 {
   margin-bottom: 15px;
 }
 
-.section1 article {
+#section1 article {
   max-width: 250px;
   max-height: 250px;
   display: flex;
@@ -209,7 +209,7 @@ h2 {
   flex-direction: column;
 }
 
-.section1 article a {
+#section1 article a {
   width: 100%;
   text-decoration: none;
   color: black;
@@ -225,7 +225,7 @@ article a:hover {
   transition: ease 0.3s;
 }
 
-.section1 img {
+#section1 img {
   min-width: 95%;
   width: 95%;
   height: 100px;
@@ -234,13 +234,13 @@ article a:hover {
   border-top-right-radius: 15px;
 }
 
-.section1 article h3 {
+#section1 article h3 {
   font-size: 1em;
   margin-top: 5px;
   margin-bottom: 10px;
 }
 
-.section1 article p {
+#section1 article p {
   font-size: 15px;
   margin-top: 0px;
   margin-bottom: 10px;
@@ -348,7 +348,7 @@ aside {
 }
 
 /* Activités */
-.section2{
+#section2{
   width: 100%;
   margin-bottom: 2em;
 }
@@ -437,6 +437,10 @@ h4{
 
 footer ul{
   list-style: none;
+}
+
+footer li{
+  margin-bottom: 10px;
 }
 
 footer a{

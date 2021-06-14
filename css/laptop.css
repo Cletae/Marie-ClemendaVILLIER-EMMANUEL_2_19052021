@@ -9,7 +9,7 @@
     justify-content: space-around;
   }
 
-  .section1 {
+  #section1 {
     width: 60%;
     margin-left: 0px;
     margin-right: 20px;
@@ -20,18 +20,18 @@
     column-gap: 10px;
   }
 
-  .section1 article {
+  #section1 article {
     max-width: 250px;
     height: 210px;
     display: flex;
     align-items: center;
   }
 
-  .section1 article a {
+  #section1 article a {
     max-width: 300px
   }
 
-  .section1 img {
+  #section1 img {
     width: 35%;
     height: 35%;
     margin-top: 0px;
