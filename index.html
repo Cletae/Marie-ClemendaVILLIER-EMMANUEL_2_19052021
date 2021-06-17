@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/mobile.css" />
   <link rel="stylesheet" href="./css/tablette.css">
+  <link rel="stylesheet" href="./css/landscape.css">
 
   <!-- Icon onglet -->
   <link rel="shortcut icon" href="./images/logo/reservia_icon.ico">
@@ -30,7 +31,7 @@
 <body>
 
   <!--Header & Nav-->
-  <header>
+  <header class="test_container">
     <nav>
       <img src="./images/logo/Reservia.svg" alt="Logo">
       <ul class="navbar">
@@ -41,7 +42,7 @@
     </nav>
   </header>
 
-  <section id="section">
+  <section id="section" class="test_container">
     <!-- Introduction -->
     <div id="intro">
       <h1>Trouver votre hébergement pour des vacances de rêves</h1>
@@ -73,8 +74,8 @@
     </div>
   </section>
 
-  <!-- Main : Hébergements + Populaire -->
-  <main>
+  <!-- Main : Hébergements + Populaire & Activités -->
+  <main class="test_container">
     <div class="main">
 
       <!-- Section - Hébergements -->
@@ -233,7 +234,7 @@
       </aside>
     </div>
 
-    <!-- Activités à Marseille-->
+    <!-- Section - Activités -->
     <section id="section2">
       <h2>Activités à Marseilles</h2>
       <div class="block">
@@ -286,11 +287,11 @@
 
       </div>
     </section>
-
   </main>
 
-  <footer>
-    <div id="footer">
+  <!-- Footer -->
+  <footer id="footer">
+    <div id="footer_content">
       <div class="footer_item">
         <h4>A propos</h4>
         <ul>
@@ -308,7 +309,7 @@
         </ul>
       </div>
 
-      <div class="footer_item">
+      <div class="footer_item" id="footer_right">
         <h4>Assistance</h4>
         <ul>
           <li><a href="">Centre d'aide</a></li>

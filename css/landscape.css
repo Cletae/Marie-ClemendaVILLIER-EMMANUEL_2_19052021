@@ -1,5 +1,14 @@
 /*------------ Tablette Format Paysage -----------*/
-@media all and (min-width: 935px) and (max-width: 1065px) and (orientation: landscape) {
+@media all and (min-width: 935px) and (max-width: 1200px){
+  body {
+    margin-left: 0px;
+  }
+
+  .test_container {
+    margin: 0;
+    width: inherit;
+  }
+
   h2 {
     font-size: 1.3em;
   }
@@ -29,7 +38,14 @@
     margin-right: 20px;
   }
 
-  /* Populaire */
+  /* Main */
+  /* Aside - Populaire */
+  main{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
   .main {
     display: flex;
     flex-direction: column-reverse;
@@ -37,7 +53,6 @@
   }
 
   aside {
-    height: 530px;
     width: 100%;
     margin-left: 0px;
     display: flex;
@@ -48,6 +63,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    column-gap: 20px;
   }
 
   .sidebar a {
@@ -62,7 +78,7 @@
     display: flex;
     min-width: 35%;
     width: 35%;
-    height: 120px;
+    height: 100%;
   }
 
   .right {
@@ -74,9 +90,10 @@
     margin-right: 50px;
   }
 
-  /* Hébergements */
+  /* Section - Hébergements */
   #section1 {
-    height: 35.5em;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     margin-left: 0px;
     background-color: inherit;
@@ -84,32 +101,77 @@
 
   .container {
     display: flex;
-    column-gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 15px;
   }
 
   #section1 article {
-    max-width: 300px;
-    height: 210px;
+    max-width: 25%;
+    min-width: 25%;
     display: flex;
     align-items: center;
   }
 
   #section1 article a {
-    max-width: 300px
+    max-width: 100%;
+    height: 200px;
+    margin-left: 0px;
   }
 
   #section1 img {
-    width: 50%;
-    height: 35%;
+    width: 100%;
+    height: 55%;
     margin-top: 0px;
   }
 
   .link {
     font-size: 19px;
+    margin-left: 20px;
   }
 
-  .container {
-    margin-bottom: 15px;
+  /* Section - Activités */
+  #section2 {
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
   }
+
+  .block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    height: 100%;
+    margin-left: 15px;
+  }
+
+  .block div {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  div > .block1{
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .block a {
+    max-width: 100%;
+    height: 300px;
+  }
+
+  .block img {
+    width: 100%;
+    height: 85%;
+    margin-top: 0px;
+  }
+
 
 }
