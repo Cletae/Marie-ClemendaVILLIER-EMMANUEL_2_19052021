@@ -31,14 +31,12 @@
 
   .navbar {
     margin-left: 0px;
-    border-bottom: 2px solid #F2F2F2;
     padding-left: 0px;
     text-align: center;
   }
 
   .element {
     display: flex;
-    flex-direction: row;
     width: 100%;
   }
 
@@ -51,6 +49,8 @@
 
   nav li a {
     flex-flow: wrap;
+    border-bottom: 2px solid #F2F2F2;
+    padding-bottom: 30px;
     width: 100%;
   }
 
@@ -143,7 +143,7 @@
     flex-direction: row;
     justify-content: flex-start;
     width: 80%;
-    height: 160px;
+    height: 150px;
   }
 
   .sidebar img {
@@ -152,7 +152,15 @@
   }
 
   .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     margin-left: 1em;
+  }
+
+  .right h3 {
+    font-size: 15px;
+    margin-bottom: 0;
   }
 
   .populaires h2 {
@@ -163,7 +171,7 @@
   #section1 {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 97%;
     margin-left: 0px;
     background-color: inherit;
   }
@@ -198,6 +206,7 @@
 
   /* Section - Activités */
   #section2 {
+    width: 95%;
     padding-bottom: 15px;
     display: flex;
     flex-direction: column;
@@ -237,7 +246,7 @@
     align-items: flex-start;
   }
 
-  #footer_content{
+  #footer_content {
     display: flex;
     flex-direction: column;
   }

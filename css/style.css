@@ -440,7 +440,7 @@ footer {
   width: 100%;
 }
 
-#footer_content{
+#footer_content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -478,6 +478,6 @@ footer a:hover {
   align-items: flex-start;
 }
 
-#footer_right{
+#footer_right {
   margin-right: 20%;
 }
