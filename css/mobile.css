@@ -1,24 +1,20 @@
 /*----- Mobile -----*/
 @media screen and (min-width: 320px) and (max-width: 668px) {
-  body {
-    margin-left: 0px;
-  }
 
   .test_container {
     margin: 0;
-    width: inherit;
+    padding: inherit;
   }
 
   /* Header & Nav */
   nav {
-    width: auto;
     display: flex;
     flex-direction: column;
     align-items: baseline;
   }
 
   nav img {
-    padding-left: 10px;
+    margin-left: 15px;
   }
 
   nav ul {
@@ -30,17 +26,16 @@
   }
 
   .navbar {
-    margin-left: 0px;
     padding-left: 0px;
     text-align: center;
   }
 
-  .element {
+  .entete {
     display: flex;
     width: 100%;
   }
 
-  nav .bold {
+  nav #inscrire {
     position: absolute;
     right: 10%;
     top: 25px;
@@ -48,7 +43,6 @@
   }
 
   nav li a {
-    flex-flow: wrap;
     border-bottom: 2px solid #F2F2F2;
     padding-bottom: 30px;
     width: 100%;
@@ -66,12 +60,13 @@
   }
 
   #section {
-    margin-left: 30px;
+    margin-left: 15px;
   }
 
   /* Searchbar */
   #search_button {
     padding: 10px;
+    border-radius: 10px;
   }
 
   #search_button span {
@@ -239,7 +234,7 @@
   }
 
   /* Footer */
-  #footer {
+  footer {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

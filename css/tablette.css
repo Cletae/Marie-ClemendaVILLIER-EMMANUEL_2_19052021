@@ -6,7 +6,7 @@
 
   .test_container {
     margin: 0;
-    width: inherit;
+    padding: inherit;
   }
 
   /* Nav */

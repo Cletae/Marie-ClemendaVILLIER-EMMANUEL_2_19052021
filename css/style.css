@@ -10,7 +10,7 @@ body {
 .test_container {
   margin: auto;
   max-width: 1440px;
-  width: 95%
+  padding: 0px 25px;
 }
 
 /*Header & Nav*/
@@ -48,7 +48,7 @@ nav a:hover {
   border-top: 2px solid #0065FC;
 }
 
-.bold {
+#inscrire {
   font-weight: 100;
   border: none;
   font-weight: bold;
@@ -390,7 +390,7 @@ aside {
 }
 
 .block a:hover {
-  transform: scale(1.022);
+  transform: scale(1.02);
   transition: ease 0.3s;
 }
 
@@ -431,9 +431,6 @@ aside {
 /* Footer */
 footer {
   background-color: #F2F2F2;
-}
-
-#footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -451,11 +448,12 @@ footer {
 h4 {
   display: flex;
   margin-bottom: 0px;
-  margin-left: 40px;
+  margin-left: 25px;
 }
 
 footer ul {
   list-style: none;
+  padding-left: 25px;
 }
 
 footer li {

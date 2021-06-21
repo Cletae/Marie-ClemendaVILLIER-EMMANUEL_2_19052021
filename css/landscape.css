@@ -151,8 +151,12 @@
     row-gap: 25px;
   }
 
+  .block h3{
+    font-size: 14px;
+  }
+
   #section2 a {
-    height: 100%;
+    max-height: 100%;
     max-width: 100%;
   }
 
