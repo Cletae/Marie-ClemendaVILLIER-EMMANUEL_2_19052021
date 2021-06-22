@@ -79,6 +79,7 @@ nav a:hover {
   border: none;
   border-top: 1px solid #F2F2F2;
   border-bottom: 1px solid #F2F2F2;
+  padding-left: 10px;
 }
 
 #city:focus {
@@ -91,6 +92,7 @@ nav a:hover {
 }
 
 #search_button {
+  cursor: pointer;
   font-family: "Raleway";
   font-weight: 600;
   margin: 0px;
@@ -109,8 +111,6 @@ nav a:hover {
 /*Filtres*/
 .filtre {
   display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
   padding: 20px;
   padding-left: 0px;
 }
@@ -168,7 +168,6 @@ nav a:hover {
   justify-content: flex-start;
   align-items: center;
   height: 2px;
-  margin-top: 0.4em;
   margin-bottom: 3em;
 }
 
@@ -210,15 +209,16 @@ h2 {
 .container {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 15px;
+  column-gap: 20px;
   row-gap: 30px;
   margin-bottom: 35px;
+  padding-top: 10px;
+  padding-left: 10px;
   width: 100%;
 }
 
 #section1 article {
   width: 30%;
-  max-height: 250px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -273,7 +273,7 @@ article a:hover {
 .link a {
   color: black;
   text-decoration: none;
-  margin-left: 20px;
+  margin-left: 15px;
   font-weight: 700;
 }
 
@@ -281,8 +281,8 @@ article a:hover {
   color: #0065FC;
 }
 
-/* Aside - Populaires */
-aside {
+/* Section - Populaires */
+.sidebar {
   margin-left: 2em;
   background-color: #F2F2F2;
   border-radius: 20px;
@@ -309,12 +309,12 @@ aside {
   margin-top: 35px;
 }
 
-.sidebar {
+.sidebar_item {
   display: flex;
   flex-direction: column;
 }
 
-.sidebar a {
+.sidebar_item a {
   height: 140px;
   width: 85%;
   text-decoration: none;
@@ -328,12 +328,12 @@ aside {
   padding-right: 6px;
 }
 
-.sidebar a:hover {
+.sidebar_item a:hover {
   transform: scale(1.025);
   transition: ease 0.3s;
 }
 
-.sidebar img {
+.sidebar_item img {
   padding: 3px;
   min-width: 40%;
   width: 40%;
@@ -369,17 +369,21 @@ aside {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  column-gap: 25px;
   width: 100%;
 }
 
-.block div {
-  max-width: 225px;
-  max-height: 490px;
+#section2 article {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
 }
 
 .block a {
   display: flex;
   flex-direction: column;
+  width: 100%;
   text-decoration: none;
   color: black;
   background-color: white;
@@ -410,6 +414,7 @@ aside {
   display: flex;
   flex-direction: column;
   row-gap: 34px;
+  width: 100%
 }
 
 .large img {

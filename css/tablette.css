@@ -31,14 +31,26 @@
     font-size: 18px;
   }
 
-  /* Section1 */
+  /* Section - Searchbar */
   #section {
-    margin-left: 20px;
+    margin-left: 13px;
+  }
+
+  #search_button {
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  #search_button span {
+    display: none;
+  }
+
+  #search_button i {
+    display: inline-grid;
   }
 
   /* Filtres */
   .filtre, .list {
-    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-start;
@@ -63,7 +75,7 @@
   }
 
   /* Main */
-  /* Aside - Populaire */
+  /* Section - Populaire */
   main {
     display: flex;
     flex-direction: column;
@@ -76,34 +88,23 @@
     justify-content: space-around;
   }
 
-  aside {
+  .sidebar {
     height: 550px;
     width: 100%;
-    margin-left: 0px;
-    display: flex;
-    flex-direction: column;
+    margin-left: 0;
+    border-radius: 0;
   }
 
-  .sidebar {
-    display: flex;
+  .sidebar_item {
     flex-wrap: wrap;
-    flex-direction: column;
     align-items: center;
   }
 
-  .sidebar a {
-    display: flex;
+  .sidebar_item a {
     flex-direction: row;
     justify-content: flex-start;
     width: 80%;
     height: 132px;
-  }
-
-  .sidebar img {
-    display: flex;
-    min-width: 35%;
-    width: 35%;
-    height: 100%;
   }
 
   .right {
@@ -126,18 +127,14 @@
   }
 
   .container {
-    display: flex;
     column-gap: 10px;
     justify-content: flex-start;
-    width: 100%;
     margin-left: 15px;
   }
 
   #section1 article {
-    max-width: 90%;
-    min-width: 90%;
+    width: 98%;
     height: 250px;
-    display: flex;
     align-items: center;
   }
 
@@ -148,7 +145,6 @@
   }
 
   #section1 img {
-    width: 100%;
     height: 65%;
     margin-top: 0px;
   }
@@ -166,7 +162,6 @@
   }
 
   .block {
-    display: flex;
     flex-direction: column;
     row-gap: 25px;
     height: 100%;

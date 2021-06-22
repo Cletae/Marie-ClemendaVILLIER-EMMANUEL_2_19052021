@@ -43,7 +43,7 @@
   }
 
   /* Main */
-  /* Aside - Populaire */
+  /* Section - Populaire */
   main {
     display: flex;
     flex-direction: column;
@@ -51,26 +51,22 @@
   }
 
   .main {
-    display: flex;
     flex-direction: column-reverse;
     justify-content: space-around;
   }
 
-  aside {
+  .sidebar {
     width: 100%;
     margin-left: 0px;
-    display: flex;
-    flex-direction: column;
   }
 
-  .sidebar {
-    display: flex;
+  .sidebar_item {
     flex-wrap: wrap;
     flex-direction: row;
     column-gap: 15px;
   }
 
-  .sidebar a {
+  .sidebar_item a {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -78,7 +74,7 @@
     height: 132px;
   }
 
-  .sidebar img {
+  .sidebar_item img {
     display: flex;
     min-width: 35%;
     width: 35%;
@@ -101,82 +97,41 @@
     width: 100%;
     margin-left: 0px;
     background-color: inherit;
+    margin-bottom: 10px;
   }
 
   .container {
-    display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
     padding-bottom: 15px;
+    margin-bottom: 15px;
   }
 
   #section1 article {
-    max-width: 25%;
-    min-width: 25%;
-    display: flex;
     align-items: center;
   }
 
   #section1 article a {
-    max-width: 100%;
+    width: 100%;
     height: 200px;
     margin-left: 0px;
   }
 
   #section1 img {
-    width: 100%;
     height: 55%;
     margin-top: 0px;
   }
 
   .link {
     font-size: 19px;
-    margin-left: 20px;
   }
 
   /* Section - Activités */
-  #section2 {
-    padding-bottom: 15px;
-    display: flex;
-    flex-direction: column;
-    width: 95%;
+  .block h3 {
+    font-size: 0.95em;
   }
 
-  .block {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    row-gap: 25px;
-  }
-
-  .block h3{
-    font-size: 14px;
-  }
-
-  #section2 a {
-    max-height: 100%;
-    max-width: 100%;
-  }
-
-  div .block1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 55px;
-    max-width: 85%;
-    max-height: 210px;
-    margin-right: 10%;
-  }
-
-  div .medium {
-    height: 100%;
-  }
-
-  .block img {
-    width: 100%;
-    height: 85%;
-    margin-top: 0px;
+  .block1 {
+    row-gap: 27px;
   }
 }

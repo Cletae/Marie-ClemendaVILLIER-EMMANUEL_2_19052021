@@ -1,6 +1,5 @@
 /*----- Mobile -----*/
 @media screen and (min-width: 320px) and (max-width: 668px) {
-
   .test_container {
     margin: 0;
     padding: inherit;
@@ -8,7 +7,6 @@
 
   /* Header & Nav */
   nav {
-    display: flex;
     flex-direction: column;
     align-items: baseline;
   }
@@ -26,7 +24,7 @@
   }
 
   .navbar {
-    padding-left: 0px;
+    padding-left: 0;
     text-align: center;
   }
 
@@ -79,15 +77,14 @@
 
   /* Filtre */
   .filtre, .list {
-    display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-start;
+    padding-top: 0;
   }
 
   .list {
-    padding-left: 0px;
-    padding-top: 0px;
+    padding-left: 0;
+    padding-top: 0;
   }
 
   .filtre p {
@@ -107,43 +104,37 @@
   }
 
   /* Main */
-  /* Aside - Populaire */
+  /* Section - Populaire */
   h2 {
     font-size: 1.5em
   }
 
   .main {
-    display: flex;
     flex-direction: column-reverse;
     justify-content: space-around;
   }
 
-  aside {
+  .sidebar {
     height: 630px;
     width: 100%;
-    margin-left: 0px;
-    display: flex;
-    flex-direction: column;
+    margin-left: 0;
+    border-radius: 0;
   }
 
-  .sidebar {
-    display: flex;
+  .sidebar_item {
     flex-wrap: wrap;
-    flex-direction: column;
     align-items: center;
   }
 
-  .sidebar a {
-    display: flex;
+  .sidebar_item a {
     flex-direction: row;
     justify-content: flex-start;
     width: 80%;
     height: 150px;
   }
 
-  .sidebar img {
+  .sidebar_item img {
     width: 35%;
-    height: 100%;
   }
 
   .right {
@@ -172,43 +163,40 @@
   }
 
   .container {
-    display: flex;
     flex-direction: column;
     row-gap: 20px;
-    width: 100%;
-    margin-left: 5px;
+    margin-left: 15px;
+    padding-left: 0;
   }
 
   #section1 article {
-    width: inherit;
-    max-width: 90%;
-    max-height: 90%;
-    display: flex;
-    flex-direction: column;
+    width: 95%;
     justify-content: space-between;
   }
 
   #section1 article a {
-    width: 100%;
     height: 300px;
+    margin-left: 0;
   }
 
   #section1 img {
-    width: 100%;
     height: 65%;
     margin-top: 0px;
   }
 
+  .link a {
+    font-size: 1.25em;
+  }
+
   /* Section - Activités */
   #section2 {
-    width: 95%;
+    width: 97%;
     padding-bottom: 15px;
     display: flex;
     flex-direction: column;
   }
 
   .block {
-    display: flex;
     flex-direction: column;
     row-gap: 25px;
     margin-left: 15px;
@@ -218,12 +206,12 @@
   .block div {
     display: flex;
     flex-direction: column;
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
   }
 
   .block a {
-    width: 93%;
+    width: 95%;
     height: 300px;
   }
 
