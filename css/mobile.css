@@ -2,7 +2,7 @@
 @media screen and (min-width: 320px) and (max-width: 668px) {
   .test_container {
     margin: 0;
-    padding: 0 5px 0 0;
+    padding: inherit;
   }
 
   /* Header & Nav */
@@ -116,7 +116,7 @@
 
   .sidebar {
     height: 630px;
-    width: 100%;
+    width: 98%;
     margin-left: 0;
     border-radius: 0;
   }
